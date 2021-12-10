@@ -1,10 +1,10 @@
 import React from "react";
 import './App.css';
 
-import { Route } from "react-router-dom";
-import Resume from "./pages/Resume";
+import { Route, Switch } from "react-router-dom";
 import Nav from './components/Nav';
 import MainImage from './components/MainImage';
+import Resume from "./pages/Resume";
 
 import Button from "react-bootstrap/Button"
 import "bootstrap/dist/css/bootstrap.min.css"
@@ -15,27 +15,16 @@ function App() {
       <div className="App">
 
         <Nav />
-        <MainImage />
+        <Switch>
+          <Route exact path="/">
+            <MainImage />
+          </Route>
 
-        
           <Route path="/resume">
             <Resume />
           </Route>
-         
-          
-
-          
-    
-
-        {/* <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-          >
-          Learn React
-          </a>
-        */}
+        </Switch>
+        
       </div>
     </>
   );
