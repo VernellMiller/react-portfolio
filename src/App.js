@@ -1,28 +1,41 @@
+import React from "react";
 import './App.css';
+
+import { Route, Routes } from "react-router-dom";
+import Resume from "./pages/Resume";
+import Nav from './components/Nav';
+import MainImage from './components/MainImage';
+
 import Button from "react-bootstrap/Button"
 import "bootstrap/dist/css/bootstrap.min.css"
-import MainImage from './components/MainImage';
-import Nav from './components/Nav';
 
 function App() {
   return (
     <>
-      <Nav />
       <div className="App">
-          <MainImage/>
 
-          <Button> New Button </Button>
+        <Nav />
+        <MainImage />
+
+        
+          <Route path="/resume">
+            <Resume />
+          </Route>
+         
+          
+
+          
     
 
-          {/* <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-            >
-            Learn React
-            </a>
-          */}
+        {/* <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+          >
+          Learn React
+          </a>
+        */}
       </div>
     </>
   );
