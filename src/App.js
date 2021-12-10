@@ -1,7 +1,7 @@
 import React from "react";
 import './App.css';
 
-import { Route, Routes } from "react-router-dom";
+import { Route } from "react-router-dom";
 import Resume from "./pages/Resume";
 import Nav from './components/Nav';
 import MainImage from './components/MainImage';
