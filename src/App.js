@@ -1,28 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
 import Button from "react-bootstrap/Button"
 import "bootstrap/dist/css/bootstrap.min.css"
+import MainImage from './components/MainImage';
+import Nav from './components/Nav';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Button> New Button </Button>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+    <>
+      <Nav />
+      <div className="App">
+          <MainImage/>
 
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+          <Button> New Button </Button>
+    
+
+          {/* <a
+            className="App-link"
+            href="https://reactjs.org"
+            target="_blank"
+            rel="noopener noreferrer"
+            >
+            Learn React
+            </a>
+          */}
+      </div>
+    </>
   );
 }
 
