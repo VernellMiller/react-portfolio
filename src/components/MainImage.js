@@ -1,6 +1,6 @@
 const MainImage = (props) => {
     return (
-        <img src="/me.png" alt="Me" width="900"/>
+        <img id="mainIMG" src="/me.png" alt="Me" width="900"/>
     );
 };
 
