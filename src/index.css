@@ -26,6 +26,10 @@ code {
   /* display: inline-block; */
 }
 
+#heading {
+  color: #BF8B6E;
+}
+
 #mainIMG {
   margin-top: -500px;
 }
