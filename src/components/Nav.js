@@ -1,30 +1,27 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Button from "react-bootstrap/esm/Button";
+import { Nav, Navbar, Container, Offcanvas } from "react-bootstrap";
 
-const Nav = (props) => {
+const Navigation = (props) => {
     return (
-        <div className="nav">
-            <nav class="navbar navbar-light bg-light">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <Link to="/" class="text-decoration-none">
-                            <span class="navbar-brand mb-0 h1">VERNELL</span>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to="/portfolio" class="text-decoration-none">
-                            <div>Portfolio</div>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to="/resume" class="text-decoration-none">
-                            <div>Resume</div>
-                        </Link>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+        <Navbar collapseOnSelect expand="md">
+            <Container>
+                <Navbar.Brand>Vernell</Navbar.Brand>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse id="responsive-navbar-nav">
+                    <Nav className="me-auto">
+                        <Link class="text-decoration-none" id="link" to="/">Home</Link>
+                        <Link class="text-decoration-none" id="link" to="portfolio">Portfolio</Link>
+                        <Link class="text-decoration-none" id="link" to="resume">Resume</Link>
+                    </Nav>
+                    <Nav>
+                        <Button id="contact">Contact Me</Button>
+                    </Nav>
+                </Navbar.Collapse>
+            </Container>
+        </Navbar>
     );
 };
 
-export default Nav;
+export default Navigation;

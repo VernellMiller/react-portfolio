@@ -2,7 +2,7 @@ import React from "react";
 import './App.css';
 
 import { Route, Switch } from "react-router-dom";
-import Nav from './components/Nav';
+import Navigation from './components/Nav';
 import Introduction from "./components/Introduction";
 import MainImage from './components/MainImage';
 import Portfolio from "./pages/Portfolio";
@@ -16,11 +16,11 @@ function App() {
     <>
       <div className="App">
 
-        <Nav />
+        <Navigation />
         <Switch>
           <Route exact path="/">
             <Introduction />
-            <MainImage />
+            {/* <MainImage /> */}
           </Route>
 
           <Route path="/resume">
