@@ -8,7 +8,6 @@ import MainImage from './components/MainImage';
 import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
 
-import Button from "react-bootstrap/Button"
 import "bootstrap/dist/css/bootstrap.min.css"
 
 function App() {
