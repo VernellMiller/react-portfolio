@@ -7,6 +7,8 @@ import Introduction from "./components/Introduction";
 import MainImage from './components/MainImage';
 import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
+import Skills from "./components/Skills";
+import Folio from "./components/Folio";
 
 import "bootstrap/dist/css/bootstrap.min.css"
 
@@ -19,7 +21,8 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Introduction />
-            {/* <MainImage /> */}
+            <Skills />
+            <Folio />
           </Route>
 
           <Route path="/resume">
