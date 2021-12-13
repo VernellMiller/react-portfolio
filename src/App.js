@@ -6,9 +6,9 @@ import Navigation from './components/Nav';
 import Introduction from "./components/Introduction";
 import MainImage from './components/MainImage';
 import Portfolio from "./pages/Portfolio";
+import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
 import Skills from "./components/Skills";
-import Folio from "./components/Folio";
 import Footer from "./components/Footer";
 
 import "bootstrap/dist/css/bootstrap.min.css"
@@ -23,7 +23,7 @@ function App() {
           <Route exact path="/">
             <Introduction />
             <Skills />
-            <Folio />
+            <Projects />
           </Route>
 
           <Route path="/resume">
