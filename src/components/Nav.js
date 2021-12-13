@@ -8,7 +8,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 
 const Navigation = (props) => {
     return (
-        <Navbar collapseOnSelect expand="md">
+        <Navbar className="shadow-sm p-3 mb-5 bg-body rounded fixed-top" collapseOnSelect expand="md">
             <Container>
                 <Navbar.Brand>Vernell</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
