@@ -9,6 +9,7 @@ import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
 import Skills from "./components/Skills";
 import Folio from "./components/Folio";
+import Footer from "./components/Footer";
 
 import "bootstrap/dist/css/bootstrap.min.css"
 
@@ -33,6 +34,7 @@ function App() {
             <Portfolio />
           </Route>
         </Switch>
+        <Footer />
 
       </div>
     </>
