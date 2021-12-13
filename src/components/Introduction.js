@@ -1,9 +1,7 @@
-import Button from "react-bootstrap/esm/Button";
-
 const Introduction = (props) => {
     return(
         <>
-            <div class="container">
+            <div id="Home" class="container">
                 <div class="row gap100">
                     <div class="col-md-6 text-start" id="intro">
                         <p>- introducing</p>
@@ -17,12 +15,20 @@ const Introduction = (props) => {
                         <p>I have a passion for exploring new learning opportunities <br></br>and applying the new knowledge in exciting and creative ways.
                         </p>
 
-                        <Button id="contact">Contact Me</Button>
+                        <a
+                            className="text-decoration-none" href="mailto:vernellmiller1@gmailcom">
+
+                            <div id="contact" className="rounded">
+                            Contact Me
+                            </div>
+                        </a>
+
                     </div>
 
                     <div class="col-md-6">
                         <img class="img-fluid" id="mainIMG" src="/me.png" alt="Me" width="900"/>
                     </div>
+                    
                 </div>
             </div>
         </> 
