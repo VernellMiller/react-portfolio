@@ -1,6 +1,6 @@
 import React from "react";
 import "../index.css";
-import { Container, Row, Image, Col } from "react-bootstrap";
+import { Row, Image, Col } from "react-bootstrap";
 
 const Resume = (props) => {    
     return(

@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import Button from "react-bootstrap/esm/Button";
 import { Nav, Navbar, Container } from "react-bootstrap";
 
 const Navigation = (props) => {

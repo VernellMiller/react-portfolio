@@ -4,7 +4,6 @@ import './App.css';
 import { Route, Switch } from "react-router-dom";
 import Navigation from './components/Nav';
 import Introduction from "./components/Introduction";
-import MainImage from './components/MainImage';
 import Portfolio from "./pages/Portfolio";
 import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
