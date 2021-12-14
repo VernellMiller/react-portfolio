@@ -37,7 +37,7 @@ code {
   background-color: #F2B56B;
   border: none;
   color: white;
-  width: 100px;
+  width: 120px;
   padding: 7px;
 }
 
@@ -76,5 +76,8 @@ footer {
 #portfolio {
   margin: 100px 0 50px 0;
   color: #BF8B6E;
+}
 
+a:hover {
+  font-size: 110%;
 }
