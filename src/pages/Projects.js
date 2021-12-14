@@ -2,7 +2,7 @@ import React from 'react'
 
 const Projects = () => {
     return (
-        <div id="projects" className="container">
+        <div id="projects" className="container bg-light">
             <div class="container row gap100">
                 <div id="portfolio" class="text-start">
                     <h1>Development Projects</h1>
@@ -80,7 +80,7 @@ const Projects = () => {
                 <div class="row gap100">
                     <div id="intro" class="col-md-6">
                         <p class="text-start" id="pnotes">- hobby and learning</p>
-                        <h5 class="text-start" id="ptitle">BUILD YOUR TEAM.</h5>
+                        <h5 class="text-start" id="ptitle">Illustrator Design</h5>
                         <p class="text-start" id="pnotes">Allows you to live out your pokemon trainer <br></br>fantasies while testing your Pokemon knowledge. <br></br> Are you the Very Best Pokemon Trainer? </p>
                     </div>
                     <div class="col-md-6">
