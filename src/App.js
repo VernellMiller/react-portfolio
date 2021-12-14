@@ -24,10 +24,10 @@ function App() {
             <Introduction />
             <Skills />
             <Projects />
+            <Resume />
           </Route>
 
           <Route path="/resume">
-            <Resume />
           </Route>
 
           <Route path="/portfolio">

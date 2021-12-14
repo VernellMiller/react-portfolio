@@ -5,7 +5,10 @@ import { Container, Row, Image, Col } from "react-bootstrap";
 const Resume = (props) => {    
     return(
         <>
-            <Container>
+            <div id="#resume" class="container">
+                <div id="portfolio" class="text-start">
+                    <h1 id="resume">My Resume</h1>
+                </div>
                 <Row>
                     <Col>
                         <Image id="resume" src="/plain-01-01.png" alt="resume page 1" width="700px"/>
@@ -14,8 +17,10 @@ const Resume = (props) => {
                         <Image id="resume" src="/plain-01-02.png" alt="resume page 1" width="700px"/>
                     </Col>
                 </Row>
+                <a href="https://github.com/VernellMiller/Design-Resume/raw/main/RESUME_Vernell_Miller.pdf">
                     <p>Click to download</p>
-            </Container>
+                </a>
+            </div>
         </>
     );
 };
