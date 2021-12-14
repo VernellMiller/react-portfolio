@@ -13,7 +13,7 @@ const Navigation = (props) => {
                     <Nav className="me-auto">
                         <a class="text-decoration-none" id="link" href="#Home">Home</a>
                         <a class="text-decoration-none" id="link" href="#portfolio">Portfolio</a>
-                        <Link class="text-decoration-none" id="link" to="resume">Resume</Link>
+                        <a class="text-decoration-none" id="link" href="#resume">Resume</a>
                     </Nav>
                     <Nav>
                         <a
