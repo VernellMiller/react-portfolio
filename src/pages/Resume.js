@@ -17,7 +17,7 @@ const Resume = (props) => {
                         <Image id="resume" src="/plain-01-02.png" alt="resume page 1" width="700px"/>
                     </Col>
                 </Row>
-                <a href="https://github.com/VernellMiller/Design-Resume/raw/main/RESUME_Vernell_Miller.pdf">
+                <a class="text-decoration-none" href="https://github.com/VernellMiller/Design-Resume/raw/main/RESUME_Vernell_Miller.pdf">
                     <p>Click to download</p>
                 </a>
             </div>
