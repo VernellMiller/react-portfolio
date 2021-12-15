@@ -6,9 +6,12 @@ const Resume = (props) => {
     return(
         <>
             <div id="#resume" class="container">
-                <div id="portfolio" class="text-start">
-                    <h1 id="resume">My Resume</h1>
-                </div>
+                <h1 id="resume">Developer Resume</h1>
+                        <Image id="devresume" src="/devResume.png" alt="resume page 1" width="700px"/>
+                <a class="text-decoration-none fs-3" href="https://github.com/VernellMiller/Design-Resume/raw/main/RESUME_Vernell_Miller.pdf">
+                    <p>Click to download</p>
+                </a>
+                <h1 id="resume">Design Resume</h1>
                 <Row>
                     <Col>
                         <Image id="resume" src="/plain-01-01.png" alt="resume page 1" width="700px"/>
@@ -17,7 +20,7 @@ const Resume = (props) => {
                         <Image id="resume" src="/plain-01-02.png" alt="resume page 1" width="700px"/>
                     </Col>
                 </Row>
-                <a class="text-decoration-none" href="https://github.com/VernellMiller/Design-Resume/raw/main/RESUME_Vernell_Miller.pdf">
+                <a class="text-decoration-none fs-3" href="https://github.com/VernellMiller/Design-Resume/raw/main/RESUME_Vernell_Miller.pdf">
                     <p>Click to download</p>
                 </a>
             </div>
