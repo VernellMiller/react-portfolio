@@ -54,6 +54,11 @@ p {
 #resume {
   margin: 50px 0 50px 0;
   width: 636px;
+  color: #BF8B6E;
+}
+
+#tag {
+  color: #BF8B6E;
 }
 
 #devresume {
