@@ -11,21 +11,29 @@ const Projects = () => {
                 <div class="row flex-row align-items-center gap100">
                     <div id="decripton" class="col-md-6">
                         <p class="text-start" id="pnotes">project one</p>
-                        <h5 class="text-start" id="ptitle">CHOOSE YOUR POKEMON.</h5>
+                        <a class="text-decoration-none" href="https://vernellmiller.github.io/My-Top-Five/" target="_blank">
+                            <h5 class="text-start" id="ptitle">CHOOSE YOUR POKEMON.</h5>
+                        </a>
                         <p class="text-start" id="pnotes">Allows you to live out your pokemon trainer <br></br>fantasies while testing your Pokemon knowledge. <br></br> Are you the Very Best Pokemon Trainer? </p>
                     </div>
                         <div class="col-md-6">
-                            <img class="shadow-sm p-3 bg-body rounded bg-body rounded" id="pIMG" src="/images/project1.png" alt="Project1" />
+                            <a href="https://vernellmiller.github.io/My-Top-Five/" target="_blank">
+                                <img class="shadow-sm p-3 bg-body rounded bg-body rounded" id="pIMG" src="/images/project1.png" alt="Project1" />
+                            </a>
                         </div>
                 </div>
 {/* project2 */}
                 <div class="row flex-row align-items-center gap100">
                     <div class="col-md-6">
+                    <a href="https://quiet-scrubland-19641.herokuapp.com/" target="_blank">
                         <img class="shadow-sm p-3 bg-body rounded bg-body rounded" id="pIMG" src="/images/project2.png" alt="Project2" />
+                    </a>
                     </div>
                     <div id="description" class="col-md-6">
                         <p class="text-start" id="pnotes">project two</p>
-                        <h5 class="text-start" id="ptitle">LEVEL UP YOUR LINEUP</h5>
+                        <a class="text-decoration-none" href="https://quiet-scrubland-19641.herokuapp.com/" target="_blank">
+                            <h5 class="text-start" id="ptitle">LEVEL UP YOUR LINEUP</h5>
+                        </a>
                         <p class="text-start" id="pnotes">KEEPME allows me or YOU to schedule me in your lineup. That way we can kEEP track of what games I can play. Just enter a little bit of info on your team, time and place and we're ready to play.</p>
                     </div>
                 </div>
@@ -33,21 +41,29 @@ const Projects = () => {
                 <div class="row gap100">
                     <div id="description" class="col-md-6">
                         <p class="text-start" id="pnotes">project three</p>
-                        <h5 class="text-start" id="ptitle">BUILD YOUR TEAM.</h5>
+                        <a class="text-decoration-none" href="https://sports-team-builder.netlify.app/" target="_blank">
+                            <h5 class="text-start" id="ptitle">BUILD YOUR TEAM.</h5>
+                        </a>
                         <p class="text-start" id="pnotes">Calling all sports Fanatics. Your time has come. Use your knowledge of the game, create your players and build your favorite teams.</p>
                     </div>
                     <div class="col-md-6">
-                        <img class="shadow-sm p-3 bg-body rounded bg-body rounded" id="pIMG" src="/images/project3.png" alt="Project3" />
+                        <a class="text-decoration-none" href="https://sports-team-builder.netlify.app/" target="_blank">
+                            <img class="shadow-sm p-3 bg-body rounded bg-body rounded" id="pIMG" src="/images/project3.png" alt="Project3" />
+                        </a>
                     </div>
                 </div>
 {/* project4 */}
                 <div class="row gap100">
                     <div class="col-md-6">
+                    <a href="https://radiant-chamber-29667.herokuapp.com/" target="_blank">
                         <img class="shadow-sm p-3 bg-body rounded bg-body rounded" id="pIMG" src="/images/project4.png" alt="Project1" />
+                    </a>
                     </div>
                     <div id="description" class="col-md-6">
                         <p class="text-start" id="pnotes">project four</p>
-                        <h5 class="text-start" id="ptitle">RAAM - A FOOD PANTRY APP</h5>
+                        <a class="text-decoration-none" href="https://radiant-chamber-29667.herokuapp.com/" target="_blank">
+                            <h5 class="text-start" id="ptitle">RAAM - A FOOD PANTRY APP</h5>
+                        </a>
                         <p class="text-start" id="pnotes">Community based, all-in-one app where anyone can create a local food pantry to lend a helping hand to their community. Also, locate a local pantry to donate or pick up essential items.</p>
                     </div>
                 </div>
@@ -58,11 +74,15 @@ const Projects = () => {
                 <div class="row gap100">
                     <div id="description" class="col-md-6">
                         <p class="text-start" id="pnotes">branding, design and learning</p>
-                        <h5 class="text-start" id="ptitle">TRAFFIC</h5>
+                        <a class="text-decoration-none" href="https://www.behance.net/gallery/121996489/TRAFFIC" target="_blank">
+                            <h5 class="text-start" id="ptitle">TRAFFIC</h5>
+                        </a>
                         <p class="text-start" id="pnotes">An app where I designed all aspects of the project. This was a personal project where taught myself various design techniques</p>
                     </div>
                     <div class="col-md-6">
-                        <img class="shadow-sm p-3 bg-body rounded bg-body rounded" id="pIMG" src="/images/project5.png" alt="Project5" />
+                        <a href="https://www.behance.net/gallery/121996489/TRAFFIC" target="_blank">
+                            <img class="shadow-sm p-3 bg-body rounded bg-body rounded" id="pIMG" src="/images/project5.png" alt="Project5" />
+                        </a>
                     </div>
                 </div>
 {/* project6 */}
@@ -80,11 +100,15 @@ const Projects = () => {
                 <div class="row gap100">
                     <div id="description" class="col-md-6">
                         <p class="text-start" id="pnotes">hobby and learning</p>
-                        <h5 class="text-start" id="ptitle">Illustrator Design</h5>
+                            <a class="text-decoration-none" href="https://www.behance.net/gallery/112376301/Illustrator-Practice" target="_blank">
+                                <h5 class="text-start" id="ptitle">Illustrator Design</h5>
+                            </a>
                         <p class="text-start" id="pnotes">Learning and practicing in my favorite vector base software, Adobe Illustrator. I was inspired by various 3d renders.</p>
                     </div>
                     <div class="col-md-6">
-                        <img class="shadow-sm p-3 bg-body rounded bg-body rounded" id="pIMG" src="/images/project7.png" alt="Project7" />
+                        <a class="text-decoration-none" href="https://www.behance.net/gallery/112376301/Illustrator-Practice" target="_blank">
+                            <img class="shadow-sm p-3 bg-body rounded bg-body rounded" id="pIMG" src="/images/project7.png" alt="Project7" />
+                        </a>
                     </div>
                 </div>
             </div>
