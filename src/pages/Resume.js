@@ -16,13 +16,17 @@ const Resume = (props) => {
                 <h1 id="resume">Design Resume</h1>
                 <Row>
                     <Col>
-                        <Image id="resume" src="/plain-01-01.png" alt="resume page 1" width="700px"/>
+                        <a class="text-decoration-none fs-3" href="https://github.com/VernellMiller/Design-Resume/raw/main/designResume.pdf">
+                            <Image id="resume" src="/plain-01-01.png" alt="resume page 1" width="700px"/>
+                        </a>
                     </Col>
                     <Col>
-                        <Image id="resume" src="/plain-01-02.png" alt="resume page 1" width="700px"/>
+                        <a class="text-decoration-none fs-3" href="https://github.com/VernellMiller/Design-Resume/raw/main/designResume.pdf">
+                            <Image id="resume" src="/plain-01-02.png" alt="resume page 1" width="700px"/>
+                        </a>
                     </Col>
                 </Row>
-                <a class="text-decoration-none fs-3" href="https://github.com/VernellMiller/Design-Resume/raw/main/RESUME_Vernell_Miller.pdf">
+                <a class="text-decoration-none fs-3" href="https://github.com/VernellMiller/Design-Resume/raw/main/designResume.pdf">
                     <p>Click to download</p>
                 </a>
             </div>
