@@ -6,7 +6,7 @@ const Footer = (props) => {
             <a class="text-decoration-none" href="https://github.com/VernellMiller" target="_blank">
                 <p>GitHub</p>
             </a>
-            <a class="text-decoration-none" href="https://www.linkedin.com/feed/" target="_blank">
+            <a class="text-decoration-none" href="https://www.linkedin.com/in/vernell-miller-097b92130/" target="_blank">
                 <p>LinkedIn</p>
             </a>
             <a class="text-decoration-none" href="https://www.behance.net/VernellMiller" target="_blank">
