@@ -12,7 +12,7 @@ const Navigation = (props) => {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" onClick={() => setExpanded(expanded ? false : "expanded")} />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
-                        <a class="text-decoration-none" id="link" href="#Home" onClick={() => setExpanded(false)}>Home</a>
+                        <a class="text-decoration-none" id="link" href="#Home" onClick={() => setExpanded(false)}>Intro</a>
                         <a class="text-decoration-none" id="link" href="#portfolio" onClick={() => setExpanded(false)}>Portfolio</a>
                         <a class="text-decoration-none" id="link" href="#resume" onClick={() => setExpanded(false)}>Resume</a>
                     </Nav>
