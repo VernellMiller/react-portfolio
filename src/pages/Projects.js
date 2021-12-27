@@ -14,7 +14,8 @@ const Projects = () => {
                         <a class="text-decoration-none" href="https://vernellmiller.github.io/My-Top-Five/" target="_blank" rel="noreferrer">
                             <h5 class="text-start" id="ptitle">CHOOSE YOUR POKEMON.</h5>
                         </a>
-                        <p class="text-start" id="pnotes">Allows you to live out your pokemon trainer <br></br>fantasies while testing your Pokemon knowledge. <br></br> Are you the Very Best Pokemon Trainer? </p>
+                        <p class="text-start" id="pnotes">Allows you to live out your pokemon trainer fantasies while testing your Pokemon knowledge. Are you the Very Best Pokemon Trainer? <a class="text-decoration-none" href="https://github.com/VernellMiller/My-Top-Five" target="_blank" rel="noreferrer"> Github repo </a></p>
+                        
                     </div>
                         <div class="col-md-6">
                             <a href="https://vernellmiller.github.io/My-Top-Five/" target="_blank" rel="noreferrer">
@@ -34,7 +35,7 @@ const Projects = () => {
                         <a class="text-decoration-none" href="https://quiet-scrubland-19641.herokuapp.com/" target="_blank" rel="noreferrer">
                             <h5 class="text-start" id="ptitle">LEVEL UP YOUR LINEUP</h5>
                         </a>
-                        <p class="text-start" id="pnotes">KEEPME allows me or YOU to schedule me in your lineup. That way we can kEEP track of what games I can play. Just enter a little bit of info on your team, time and place and we're ready to play.</p>
+                        <p class="text-start" id="pnotes">KEEPME allows me or YOU to schedule me in your lineup. That way we can kEEP track of what games I can play. Just enter a little bit of info on your team, time and place and we're ready to play. <a class="text-decoration-none" href="https://github.com/VernellMiller/keepme" target="_blank" rel="noreferrer"> Github repo </a></p>
                     </div>
                 </div>
 {/* project3 */}
@@ -44,7 +45,7 @@ const Projects = () => {
                         <a class="text-decoration-none" href="https://sports-team-builder.netlify.app/" target="_blank" rel="noreferrer">
                             <h5 class="text-start" id="ptitle">BUILD YOUR TEAM.</h5>
                         </a>
-                        <p class="text-start" id="pnotes">Calling all sports Fanatics. Your time has come. Use your knowledge of the game, create your players and build your favorite teams.</p>
+                        <p class="text-start" id="pnotes">Calling all sports Fanatics. Your time has come. Use your knowledge of the game, create your players and build your favorite teams.<a class="text-decoration-none" href="https://github.com/VernellMiller/sports-chat-frontend" target="_blank" rel="noreferrer"> Github repo </a></p>
                     </div>
                     <div class="col-md-6">
                         <a class="text-decoration-none" href="https://sports-team-builder.netlify.app/" target="_blank" rel="noreferrer">
@@ -64,7 +65,7 @@ const Projects = () => {
                         <a class="text-decoration-none" href="https://radiant-chamber-29667.herokuapp.com/" target="_blank" rel="noreferrer">
                             <h5 class="text-start" id="ptitle">RAAM - A FOOD PANTRY APP</h5>
                         </a>
-                        <p class="text-start" id="pnotes">Community based, all-in-one app where anyone can create a local food pantry to lend a helping hand to their community. Also, locate a local pantry to donate or pick up essential items.</p>
+                        <p class="text-start" id="pnotes">Community based, all-in-one app where anyone can create a local food pantry to lend a helping hand to their community. Also, locate a local pantry to donate or pick up essential items. <a class="text-decoration-none" href="https://github.com/mariorojasac/raam" target="_blank" rel="noreferrer"> Github repo </a></p>
                     </div>
                 </div>
 {/* project5 */}
@@ -77,7 +78,7 @@ const Projects = () => {
                         <a class="text-decoration-none" href="https://www.behance.net/gallery/121996489/TRAFFIC" target="_blank" rel="noreferrer">
                             <h5 class="text-start" id="ptitle">TRAFFIC</h5>
                         </a>
-                        <p class="text-start" id="pnotes">An app where I designed all aspects of the project. This was a personal project where taught myself various design techniques</p>
+                        <p class="text-start" id="pnotes">An app where I designed all aspects of the project. This was a personal project where taught myself various design techniques.</p>
                     </div>
                     <div class="col-md-6">
                         <a href="https://www.behance.net/gallery/121996489/TRAFFIC" target="_blank" rel="noreferrer">
@@ -93,7 +94,7 @@ const Projects = () => {
                     <div id="description" class="col-md-6">
                         <p class="text-start" id="pnotes">branding, design and learning</p>
                         <h5 class="text-start" id="ptitle">LOGO DESIGN</h5>
-                        <p class="text-start" id="pnotes">One of many logo designs I've created. This was a personal project where I learned more about design</p>
+                        <p class="text-start" id="pnotes">One of many logo designs I've created. This was a personal project where I learned more about design.</p>
                     </div>
                 </div>
 {/* project7 */}
