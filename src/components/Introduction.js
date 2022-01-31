@@ -3,7 +3,7 @@ const Introduction = (props) => {
         <>
             <div id="Home" class="container">
                 <div class="row gap100">
-                    <div class="col-md-6 text-start" id="intro">
+                    <div class="col-lg-6 col-md-7 col-sm-12 text-start" id="intro">
                         <h3 id="heading" class="fw-bold ">Hello</h3>
                         <h1 id="heading" class="fw-bold ">I'm Vernell</h1>
                         <h1 id="heading" class="fw-bold ">Miller</h1>
@@ -21,7 +21,7 @@ const Introduction = (props) => {
                             </div>
                         </a>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-lg-6 col-md-5 col-sm-12">
                         <img class="img-fluid" id="mainIMG" src="/me.png" alt="Me" width="900"/>
                     </div>
                 </div>
