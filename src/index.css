@@ -68,10 +68,11 @@ p {
 #pIMG {
   width: 400px;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #pnotes {
-  /* margin-left: 200px; */
+  margin-top: 20px;
 }
 
 #ptitle {
