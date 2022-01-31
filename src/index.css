@@ -65,6 +65,10 @@ p {
   width: 636px;
 }
 
+#description {
+  margin-top: 20px;
+}
+
 #pIMG {
   width: 400px;
   margin-top: 20px;
