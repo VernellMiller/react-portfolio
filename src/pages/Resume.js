@@ -7,10 +7,10 @@ const Resume = (props) => {
         <>
             <div id="#resume" class="container">
                 <h1 id="resume">Developer Resume</h1>
-                    <a class="text-decoration-none fs-3" href="https://github.com/VernellMiller/Design-Resume/raw/main/devResume.pdf">
+                    <a class="text-decoration-none fs-3" href="https://github.com/VernellMiller/Design-Resume/raw/main/Vernell_Miller_Resume.pdf">
                         <Image id="devresume" src="/devResume.png" alt="resume page 1" width="700px"/>
                     </a>
-                <a class="text-decoration-none fs-3" href="https://github.com/VernellMiller/Design-Resume/raw/main/devResume.pdf">
+                <a class="text-decoration-none fs-3" href="https://github.com/VernellMiller/Design-Resume/raw/main/Vernell_Miller_Resume.pdf">
                     <p>Click to download</p>
                 </a>
                 <h1 id="resume">Design Resume</h1>
